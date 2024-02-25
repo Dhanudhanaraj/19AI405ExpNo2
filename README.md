@@ -55,43 +55,57 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
 
 ## Algorithm:
 
- 1.Construct a Graph with Nodes and Edges
- 2.Depth First Search Uses Stack and Recursion
- 3.Insert a START node to the STACK
- 4.Find its Successors Or neighbors and Check whether the node is visited or not
- <5.If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.
+### 1.Construct a Graph with Nodes and Edges
+### 2.Depth First Search Uses Stack and Recursion
+### 3.Insert a START node to the STACK
+### 4.Find its Successors Or neighbors and Check whether the node is visited or not
+### 5.If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.
 
-## Sample Input
+## Sample Input:
 
 8 9 
+
 A B 
+
 A C 
+
 B E 
+
 C D 
+
 B D
+
 C G 
+
 D F 
+
 G F 
+
 F H 
 
-## Sample Output
+## Sample Output:
 
 ['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
 
-## Sample Input
+## Sample Input:
 
 5 5 
+
 0 1 
+
 0 2 
+
 0 3 
+
 2 3 
+
 2 4
 
-## Sample Output
+## Sample Output:
 
 ['0', '1', '2', '3', '4']
 
-### Program
+### Program:
 ```
 #import defaultdict
 from collections import defaultdict
@@ -140,11 +154,14 @@ path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
 ```
-### Output
+### Output:
+
 ![Screenshot 2024-02-25 203807](https://github.com/Dhanudhanaraj/19AI405ExpNo2/assets/119218812/3c46ce53-5999-4a14-8a13-9410cf439ac0)
+
+
 ![Screenshot 2024-02-25 203814](https://github.com/Dhanudhanaraj/19AI405ExpNo2/assets/119218812/f035a401-fc2b-485d-afe5-939dcc8ec1d4)
 
 ## Result:
 
-Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.<
+Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.
 
