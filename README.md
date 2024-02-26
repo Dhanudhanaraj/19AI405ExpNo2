@@ -16,6 +16,7 @@ Initially, stack and visited arrays are empty.
 Queue and visited arrays are empty initially.
 Stack and visited arrays are empty initially.
 
+
 ### Step 2:
 Visit 0 and put its adjacent nodes which are not visited yet into the stack.
  ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/86dcf7d9-1f9d-49b0-a821-5976a6e77606)
